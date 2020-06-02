@@ -1,0 +1,4 @@
+#Fri Jan 17 11:24:04 CST 2020
+base.0=/Users/atom/AndroidStudioworkspace/Chapter_4/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,46 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android.softkeyboard" >
+4
+5    <application
+5-->/Users/atom/AndroidStudioworkspace/development-refs_heads_master-samples-SoftKeyboard1/app/src/main/AndroidManifest.xml:3:5-18:19
+6        android:debuggable="true"
+7        android:label="@string/ime_name" >
+7-->/Users/atom/AndroidStudioworkspace/development-refs_heads_master-samples-SoftKeyboard1/app/src/main/AndroidManifest.xml:3:18-50
+8        <service
+8-->/Users/atom/AndroidStudioworkspace/development-refs_heads_master-samples-SoftKeyboard1/app/src/main/AndroidManifest.xml:4:9-10:19
+9            android:name="com.example.android.softkeyboard.SoftKeyboard"
+9-->/Users/atom/AndroidStudioworkspace/development-refs_heads_master-samples-SoftKeyboard1/app/src/main/AndroidManifest.xml:4:18-45
+10            android:permission="android.permission.BIND_INPUT_METHOD" >
+10-->/Users/atom/AndroidStudioworkspace/development-refs_heads_master-samples-SoftKeyboard1/app/src/main/AndroidManifest.xml:5:17-74
+11            <intent-filter>
+11-->/Users/atom/AndroidStudioworkspace/development-refs_heads_master-samples-SoftKeyboard1/app/src/main/AndroidManifest.xml:6:13-8:29
+12                <action android:name="android.view.InputMethod" />
+12-->/Users/atom/AndroidStudioworkspace/development-refs_heads_master-samples-SoftKeyboard1/app/src/main/AndroidManifest.xml:7:17-67
+12-->/Users/atom/AndroidStudioworkspace/development-refs_heads_master-samples-SoftKeyboard1/app/src/main/AndroidManifest.xml:7:25-64
+13            </intent-filter>
+14
+15            <meta-data
+15-->/Users/atom/AndroidStudioworkspace/development-refs_heads_master-samples-SoftKeyboard1/app/src/main/AndroidManifest.xml:9:13-88
+16                android:name="android.view.im"
+16-->/Users/atom/AndroidStudioworkspace/development-refs_heads_master-samples-SoftKeyboard1/app/src/main/AndroidManifest.xml:9:24-54
+17                android:resource="@xml/method" />
+17-->/Users/atom/AndroidStudioworkspace/development-refs_heads_master-samples-SoftKeyboard1/app/src/main/AndroidManifest.xml:9:55-85
+18        </service>
+19
+20        <activity
+20-->/Users/atom/AndroidStudioworkspace/development-refs_heads_master-samples-SoftKeyboard1/app/src/main/AndroidManifest.xml:12:9-16:20
+21            android:name="com.example.android.softkeyboard.ImePreferences"
+21-->/Users/atom/AndroidStudioworkspace/development-refs_heads_master-samples-SoftKeyboard1/app/src/main/AndroidManifest.xml:12:19-49
+22            android:label="@string/settings_name" >
+22-->/Users/atom/AndroidStudioworkspace/development-refs_heads_master-samples-SoftKeyboard1/app/src/main/AndroidManifest.xml:12:50-87
+23            <intent-filter>
+23-->/Users/atom/AndroidStudioworkspace/development-refs_heads_master-samples-SoftKeyboard1/app/src/main/AndroidManifest.xml:13:13-15:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->/Users/atom/AndroidStudioworkspace/development-refs_heads_master-samples-SoftKeyboard1/app/src/main/AndroidManifest.xml:14:17-68
+24-->/Users/atom/AndroidStudioworkspace/development-refs_heads_master-samples-SoftKeyboard1/app/src/main/AndroidManifest.xml:14:25-66
+25            </intent-filter>
+26        </activity>
+27    </application>
+28
+29</manifest>

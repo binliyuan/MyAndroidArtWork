@@ -1,0 +1,79 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ryg.chapter_8"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:7:5-47
+8        android:minSdkVersion="8"
+8-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:7:5-47
+9        android:targetSdkVersion="19" />
+9-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:7:15-44
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:9:5-78
+11-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:9:22-75
+12
+13    <application
+13-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:11:5-40:19
+14        android:allowBackup="true"
+14-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:12:9-35
+15        android:debuggable="true"
+16        android:icon="@drawable/ic_launcher"
+16-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:13:9-45
+17        android:label="@string/app_name"
+17-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:14:9-41
+18        android:testOnly="true"
+19        android:theme="@style/AppTheme" >
+19-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:15:9-40
+20        <activity
+20-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:16:9-20:45
+21            android:name="com.ryg.chapter_8.TestActivity"
+21-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:17:13-41
+22            android:configChanges="orientation|screenSize"
+22-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:18:13-59
+23            android:label="@string/app_name"
+23-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:19:13-45
+24            android:launchMode="standard" />
+24-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:20:13-42
+25        <activity
+25-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:21:9-25:45
+26            android:name="com.ryg.chapter_8.DemoActivity_1"
+26-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:22:13-43
+27            android:configChanges="screenLayout"
+27-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:23:13-49
+28            android:label="@string/title_scene_1"
+28-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:24:13-50
+29            android:launchMode="standard" />
+29-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:25:13-42
+30        <activity
+30-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:26:9-30:45
+31            android:name="com.ryg.chapter_8.DemoActivity_2"
+31-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:27:13-43
+32            android:configChanges="screenLayout"
+32-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:28:13-49
+33            android:label="@string/app_name"
+33-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:29:13-45
+34            android:launchMode="standard" />
+34-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:30:13-42
+35        <activity
+35-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:31:9-39:20
+36            android:name="com.ryg.chapter_8.MainActivity"
+36-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:32:13-41
+37            android:label="@string/app_name" >
+37-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:33:13-45
+38            <intent-filter>
+38-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:34:13-38:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:35:17-69
+39-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:35:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:37:17-77
+41-->/Users/atom/AndroidStudioworkspace/Chapter_8/app/src/main/AndroidManifest.xml:37:27-74
+42            </intent-filter>
+43        </activity>
+44    </application>
+45
+46</manifest>

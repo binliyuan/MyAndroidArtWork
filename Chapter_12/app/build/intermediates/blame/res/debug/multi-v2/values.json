@@ -1,0 +1,98 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/atom/AndroidStudioworkspace/Chapter_12/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/atom/AndroidStudioworkspace/Chapter_12/app/src/main/res/values/ids.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endColumns": "44",
+                        "endOffsets": "96"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "150",
+                        "endColumns": "44",
+                        "endOffsets": "190"
+                    }
+                },
+                {
+                    "source": "/Users/atom/AndroidStudioworkspace/Chapter_12/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "56,104,157",
+                        "endColumns": "47,52,60",
+                        "endOffsets": "99,152,213"
+                    },
+                    "to": {
+                        "startLines": "5,6,7",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "195,243,296",
+                        "endColumns": "47,52,60",
+                        "endOffsets": "238,291,352"
+                    }
+                },
+                {
+                    "source": "/Users/atom/AndroidStudioworkspace/Chapter_12/app/src/main/res/values/attrs.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endLines": "5",
+                        "endColumns": "24",
+                        "endOffsets": "170"
+                    },
+                    "to": {
+                        "startLines": "33",
+                        "startColumns": "4",
+                        "startOffsets": "1470",
+                        "endLines": "35",
+                        "endColumns": "24",
+                        "endOffsets": "1583"
+                    }
+                },
+                {
+                    "source": "/Users/atom/AndroidStudioworkspace/Chapter_12/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "11,20,25,31,38",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "196,527,727,949,1237",
+                        "endLines": "17,22,29,36,41",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "486,684,941,1229,1402"
+                    },
+                    "to": {
+                        "startLines": "8,15,18,23,29",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "357,648,808,1023,1303",
+                        "endLines": "14,17,22,28,32",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "643,803,1018,1298,1465"
+                    }
+                },
+                {
+                    "source": "/Users/atom/AndroidStudioworkspace/Chapter_12/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "4,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "105,56",
+                        "endColumns": "45,48",
+                        "endOffsets": "146,100"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,101",
+                        "endColumns": "45,48",
+                        "endOffsets": "96,145"
+                    }
+                }
+            ]
+        }
+    ]
+}

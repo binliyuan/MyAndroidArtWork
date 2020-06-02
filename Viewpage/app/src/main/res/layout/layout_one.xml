@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/tv_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/icon_bg"
+        android:scaleType="fitXY"
+        android:layout_above="@+id/btn_one"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="页面一"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
